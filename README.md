@@ -1,7 +1,7 @@
 # SQL Server
 Criando banco de dados SQL Server.
 
-Inicialmente vamos tentar apresentar os comandos DDL (Data Definition Language), DML (Data Manipulation Language) e o DCL (Data Control Language), no qual são os comandos que criam, gerenciam e administra os Bancos de Dados:
+Inicialmente vamos tentar apresentar os comandos DDL (Data Definition Language), DML (Data Manipulation Language) e o DCL (Data Control Language), no qual são os comandos que criam, gerenciam e administram os Bancos de Dados:
 
 ## **DDL (Data Definition Language)**
 
@@ -32,11 +32,13 @@ São usados para **gerenciar os dados do banco**, ou seja, informações que est
 
 Ato continuo, também, se faz necessário apresentar as 'ENTIDADES'.
 
+## ***Definição de Entidades***
+
 Dentro de um banco, existem várias entidades. A primeira e mais importante é a tabela (tables). Um banco de dados SQL Server pode ter uma ou mais tabelas, dentro das quais os dados ficam armazenados. Podemos afirmar que uma tabela se assemelha à uma planilha de Excel, já que é composta por colunas e linhas. Mas, apesar da semelhança, existem diferenças significativas. Vamos nos ater a elas.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8467d4a1-f7eb-4f8c-81c2-9c4e7d85364d/Untitled.png)
-
 Na tabela, o número de linhas é limitado somente pelo espaço em disco disponível para armazenagem do banco. Sendo assim, podem existir tabelas com milhões ou bilhões de linhas. Já no que diz respeito ao número de colunas, o valor é limitado, sendo definido no momento de estruturação da tabela. É possível incluir e excluir colunas apenas em casos específicos que envolvem as regras, das quais falaremos adiante. Vale ressaltar que as linhas são chamadas de **registros**, e as colunas, de **campos.**
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8467d4a1-f7eb-4f8c-81c2-9c4e7d85364d/Untitled.png)
 
 Quando definimos o campo, a propriedade mais importante é o seu nome, que deve respeitar algumas regras. Esse nome deve ser único, portanto, não podemos ter mais de um campo com a mesma nomenclatura.
 
@@ -74,7 +76,10 @@ Este campo de estado, na tabela de clientes, tem uma chave estrangeira com o cam
 
 Ao criar a chave estrangeira, é criado um vínculo entre esses dois campos, e não podemos, portanto, ter um cliente com um estado que não esteja presente na tabela de estados. Caso isso aconteça, um erro será gerado.
 
-Curso de Fundamentos do SQL Server do Balta.io
+
+Desta forma apresento e defino o CRUD, bem como as definições necessárias como realizar a criação de tabela em um Banco de Dados, conforme modelo neste Diretorio.
+
+Curso de Fundamentos do SQL Server do Balta.io e Alura
 
 Anotações no Notion: https://www.notion.so/Fundamentos-do-SQL-Server-85841fb1ddfe42c09291abce2b899e37
 
